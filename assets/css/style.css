@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  text-align: center;
+  width: 8vw;
+  padding: 20px 40px;
+  font-size: 20px;
+  background-color: black;
+  text-decoration-line: none;
+  color: #000;
+  transition: all 1s;
+}
+a:link {
+  transform: rotate(30deg);
+}
+a:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 10px 10px 10px 10px #000;
+  text-shadow: 5px 5px 5px #fff;
+}
+a:active {
+  transform: rotate(0deg);
+  color: #fff;
+}

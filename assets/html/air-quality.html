@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air-quality</title>
+    <link rel="stylesheet" href="../css/air-quality.css">
+</head>
+<body>
+    <form action="">
+        <label for="">
+            AQI: <span id="wert"></span>
+        </label>
+        <input type="range" name="" id="range" 
+        min="0" max="150" step="1" 
+        onchange="checkAirQuality()">
+        <p>Level of health concern:
+            <span id="wert-1"></span>
+        </p>
+        <p>Level of health effect:
+            <span id="wert-2"></span>
+        </p>
+    </form>
+<script src="../js/air-quality.js"></script>    
+</body>
+</html>
